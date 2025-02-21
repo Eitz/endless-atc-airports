@@ -15,8 +15,8 @@ Airport completion status:
       - [x] CTR/APR Areas
     - SBNF:
       - [ ] CTR/APR Areas
-      - [ ] Procedures
-      - [ ] SIDs
+      - [x] Procedures
+      - [x] SIDs
       - [x] APPR
       - [x] STAR
 - Preview:
