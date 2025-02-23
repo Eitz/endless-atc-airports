@@ -14,7 +14,9 @@ Airport completion status:
       - [x] STAR
       - [x] CTR/APR Areas
     - SBNF:
-      - [ ] CTR/APR Areas
+      - [X] CTR/APR Areas
+        - Note on something to be fixed: SBNF CTR area is incorrect. As far as my research goes, there is no available official waypoint demarcation of the area online. In the sources there's one, but it is wrong.
+        - To fix this, one would've to trace it manually using a chart that contains it. I intend to do this in the future or to fix it with the correct waypoints if the material becomes available.
       - [x] Procedures
       - [x] SIDs
       - [x] APPR
