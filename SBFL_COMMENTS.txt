@@ -12,7 +12,7 @@
 [airspace]
 ceiling=19000
 radius = 60		; airspace radius in NM
-descentaltitude=7000
+descentaltitude=15000
 elevation = 13
 center = S27.61946, W48.50521
 magneticvar = -20.35
@@ -762,11 +762,12 @@ line2 =
 [airport1]
 name = Hercilio Luz International Airport
 code = SBFL
+flow = 5
+climbaltitude = 5700
 runways =
 	rwy1, 14, S27.6658, W48.5511, 121.30, 7881, 720, 0, 16
 	rwy2, 03, S27.6751, W48.5541, 11.46, 4343, 0, 0, 14
 
-climbaltitude = 5700
 entrypoints =
 	276, VAPAP, 20000
 	233, DADMO, 15000
@@ -1115,6 +1116,7 @@ beacon = FL996, S27.83898, W49.14500, -055, FL996
 [airport2]
 name = Ministro Victor Konder
 code = SBNF
+flow = 5
 runways =
   rwy3, 08, S26.88373, W48.65803, 056, 5581, 0, 0, 18
 
@@ -1460,13 +1462,11 @@ points =
 
 config1 =
 	0, rwy3, landstart
-	0, rwy1, landstart
-	
+	0, rwy1, landstart	
 
 config2 =
 	0, rwy3, landstartrev
-	0, rwy1, landstartrev
-	
+	0, rwy1, landstartrev	
 
 # config3 =
 # 	0, rwy3, landstart
